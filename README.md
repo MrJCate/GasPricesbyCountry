@@ -1,7 +1,7 @@
 # GasPricesbyCountry
-For this project I did a analysis with R of the gas prices from 2000-2020. 
+For this project I did a analysis with R of the gas prices from 2000-2024. 
 
-  - Countries included: USA, Canada, Mexico, England, France, Spain, India, Russia, China, and Japan
+  - Countries included: USA, China, Germany, Japan, India, United Kingdom, France, Brazil, Italy, and Canada
 
 [Click here to open dashboard](https://www.kaggle.com/code/justencate/gas-prices-by-country)
 
