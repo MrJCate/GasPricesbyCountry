@@ -5,4 +5,4 @@ For this project I did a analysis with R of the gas prices from 2000-2020.
 
 [Click here to open dashboard](https://www.kaggle.com/code/justencate/gas-prices-by-country)
 
-For this analysis I pulled historical data from 2000-2020 for each country. I cleaned the data to get the average gas price per year for each country and merged them into one spreadsheet using Excel. Once I was satified with the quality and setup of the data I started writing my code in R. In R, I rearranged the data to be easier to work and convert values from USD per liter to USD per gallon. Lastly, I started to create line graph visuals to compare companies prices over the years.
+For this analysis, I gathered historical data from 2000 to 2020 for each country. I cleaned the data to obtain the average gas price per year for each country and merged everything into a single spreadsheet using Excel. Once I was satisfied with the data quality and organization, I began writing my code in R. In R, I rearranged the data to facilitate analysis and converted values from USD per liter to USD per gallon. Finally, I created line graphs to compare gas prices across different countries over the years.
