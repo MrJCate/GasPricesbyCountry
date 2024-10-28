@@ -1,10 +1,8 @@
 # Ensure the tidyverse and ggplot2 packages are installed
 # install.packages("tidyverse")
-# install.packages("ggplot2")
 
 # Load packages
 library("tidyverse")
-library("ggplot2")
 
 # Read data and set to variable
 print ("Starting..")
