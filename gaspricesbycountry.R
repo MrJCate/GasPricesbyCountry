@@ -22,7 +22,7 @@ gas.liters
 gas.usd <- gas.liters %>%
               mutate(price = price * 3.78541)
 
-# # Plot UAS vs China
+# Plot UAS vs China
 uas_china_plot <- ggplot(subset(gas.usd, Country %in% c('USA','China')), aes(x=Year, y=USD / Gallon)) +
   geom_line(aes(x = Year, y = price, group = Country, color = Country)) +
   ggtitle("Gas Prices In The USA and Canada") +
@@ -30,7 +30,7 @@ uas_china_plot <- ggplot(subset(gas.usd, Country %in% c('USA','China')), aes(x=Y
 uas_china_plot
 ggsave("uas_china_plot.png")
 
-# # Plot all 10 countries
+# Plot all 10 countries
 all_plot <- ggplot(gas.usd, aes(x=Year, y=USD / Gallon)) +
   geom_line(aes(x = Year, y = price, group = Country, color = Country)) +
   ggtitle("Gas Prices Around The World") +
